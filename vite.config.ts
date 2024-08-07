@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  root: "src",
   base: "/ts-hw-01/",
+  build: {
+    outDir: "dist",
+  },
 });
