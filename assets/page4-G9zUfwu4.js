@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";console.log("task-04");let o=23580;const t=3e3;let l=0,e=prompt("Please enter quantity droids");if(e===null)console.log("Отменено пользователем!");else{for(;isNaN(Number(e));)e=prompt("Please enter QUANTITY droids.");l=t*Number(e),l>o?console.log("Недостаточно средств на счету!"):(o-=l,console.log(`Вы купили ${e} дроидов, на счету осталось ${o} кредитов.`))}console.log(`
+`);
